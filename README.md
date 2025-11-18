@@ -1,2 +1,2 @@
 # House-Bencana
-Repozytorium dla internetowego kasyno "Bencana" 
+Repozytorium dla internetowego kasyna "Bencana" 
