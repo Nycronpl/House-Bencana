@@ -1,0 +1,79 @@
+body {
+      margin: 0;
+      font-family: Arial, sans-serif;
+      background-color: #111;
+      color: #fff;
+      display: flex;
+    }
+
+    header {
+      width: 100%;
+      background-color: #000;
+      padding: 20px;
+      color: gold;
+      font-family: 'Cinzel', serif;
+      font-size: 1.7rem;
+      text-align: center;
+      border-bottom: 2px solid gold;
+      position: fixed;
+      top: 0;
+      left: 0;
+      z-index: 10;
+    }
+
+    .sidebar {
+      position: fixed;
+      top: 80px;
+      left: 0;
+      width: 180px;
+      background-color: #181818;
+      padding: 20px;
+      height: 100%;
+      box-sizing: border-box;
+      border-right: 2px solid gold;
+
+      a {
+      display: block;
+      margin-bottom: 20px;
+      text-decoration: none;
+      color: gold;
+      font-family: 'Cinzel', serif;
+      font-size: 1.1rem;
+        }
+    }
+
+    .main {
+      margin-top: 120px;
+      margin-left: 220px;
+      padding: 20px;
+      width: calc(100% - 220px);
+    }
+
+    .button-grid {
+      display: grid;
+      grid-template-columns: repeat(4, 1fr);
+      gap: 20px;
+      width: 100%;
+    }
+
+    .button {
+      background-color: #222;
+      padding: 0;
+      border-radius: 10px;
+      border: 2px solid gold;
+      text-align: center;
+      font-size: 1.2rem;
+      cursor: pointer;
+      color: gold;
+      font-family: 'Cinzel', serif;
+      transition: 0.2s;
+      aspect-ratio: 16 / 9;
+      display: flex;
+      align-items: center;
+      justify-content: center;
+    }
+
+    .yt-button:hover {
+      background-color: #333;
+      transform: scale(1.03);
+    }
